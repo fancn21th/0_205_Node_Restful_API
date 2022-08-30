@@ -86,7 +86,7 @@ const handlers = {};
 
 // foo handler
 handlers.foo = function (data, callback) {
-  callback(200, { message: "foo handler" });
+  callback(200, { message: "hi handler" });
 };
 
 // Not found handler

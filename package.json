@@ -6,6 +6,9 @@
   "author": "fancn21th <fancn21th@aliyun.com> (http://fancn21th.cn/)",
   "license": "MIT",
   "scripts": {
-    "start": "node app/index.js"
+    "start": "nodemon app/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.19"
   }
 }
